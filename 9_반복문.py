@@ -66,7 +66,7 @@ for i in range(5):
 
 # 이중 for문
 # 구구단 예제
-for i in range(2, 10):
-    for j in range(1, 10):
+for i in range(2, 10):    #--> i는 2~9까지 증가!
+    for j in range(1, 10): # --> j는 1 ~9까지
         print(i , " X ", j, " = ", i * j)
     print()
